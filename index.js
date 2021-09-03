@@ -26,7 +26,7 @@ io.on('connection', (socket) => {
   console.log(`a user connected: ${socket.id}`)
 
   // 'join' event emits from FROM frontend 
-  // with a payload containing name & room
+  // with a payload containing name, room...
   socket.on('join', ({ name, room, picIndex }, callback) => {
     // Add user returns either an error or a user
     const { error, user } = addUser({ id: socket.id, name, room, picIndex })
