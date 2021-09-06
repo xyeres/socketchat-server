@@ -8,11 +8,22 @@ const { emitRoomData } = require('./utils');
 
 const router = require('./router');
 
+let DEBUG = 0;
+
+let ALLOWED_HOST = '';
+
+if (DEBUG == 1) {
+  ALLOWED_HOST = 'http://localhost:3000';
+} else {
+  ALLOWED_HOST = 'https://inspiring-goodall-255229.netlify.app';
+}
+
+
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: "https://inspiring-goodall-255229.netlify.app"
+    origin: ALLOWED_HOST,
   }
 });
 
