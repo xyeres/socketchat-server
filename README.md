@@ -26,7 +26,7 @@ The server should be able to:
 - Keep a tally of room data like active users, room name, user profile pics
 ### Links
 
-- Solution Code: This repo, check out the code!
+- Codebase: This repo, check out the code!
 - Live Site URL: [View project live](https://inspiring-goodall-255229.netlify.app/)
 
 ## My process
