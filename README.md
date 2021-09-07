@@ -41,7 +41,7 @@ I dove into understanding WebSockets as a two-way interactive communication sess
 - CORS
 
 ### What I learned
-*SOCKET.io*: The power of websockets! The fast, interactive, event-driven nature of WebSockets feels intuitive to me and introduces so many exciting possibilities than traditional HTTP request/response cylces. I feel as though I learned the introductory concepts behind WebSockets and that I would be comfortable working with them again and implementing basic two-way sessions in future apps.     
+The power of WebSockets! The fast, interactive, event-driven nature of WebSockets feels intuitive to me and introduces so many exciting possibilities than traditional HTTP request/response cylces. I feel as though I learned the introductory concepts behind WebSockets and that I would be comfortable working with them again and implementing basic two-way sessions in future apps.     
 ### Continued development
 There is a lot to this app that could be expanded like adding persistant data storage, user authentication, profiles, private messaging, and more. I may try adding voice chat at some point to learn more about modern browser media capabilities. 
 ### Useful resources
